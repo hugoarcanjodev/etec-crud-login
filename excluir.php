@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<title>Excluir - MYSQLI</title>
-</head>
-<body>
+<?php require_once ('cabecalho.php'); ?>
 <a href="index.php" class="w3-display-topmiddle w3-red w3-center w3-padding w3-button" style="text-decoration:none; ">
     <i class="fa fa-ban" style="font-size:5em"></i>
     <p style="font-weight:bold;">CANCELAR EXCLUSÃO</p>     
@@ -32,5 +22,4 @@
         </button>
     </form>
 </div>
-</body>
-</html>
+<?php require_once ('rodape.php'); ?>
