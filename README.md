@@ -53,7 +53,7 @@ Abaixo encontra-se a organização dos principais ficheiros que compõem o siste
 1. **Pré-requisitos**: Certifique-se de ter um servidor local em execução que suporte PHP e MySQL (como o USBWebserver, XAMPP ou WampServer).
 2. **Clonar o Repositório**:
    ```bash
-   git clone [https://github.com/hugoarcanjodev/etec-crud-login.git](https://github.com/hugoarcanjodev/etec-crud-login.git)
+   git clone https://github.com/hugoarcanjodev/etec-crud-login.git
 3. **Criar base de dados `pwii` e tabela `usuario`**:
     ```sql
     CREATE TABLE `pwii`.`usuario` (
